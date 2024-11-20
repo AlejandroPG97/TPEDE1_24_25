@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    display: flex;
+    background-color: blue;
+    width: 80%;
+    position: fixed;
+    top: 0;
+    left:10%;
+   
+}
+.logo_Elpais{
+    margin: 10px;    
+    float: left;
+    
+}
+.Empresa{
+    text-align: center;
+    color: aliceblue;
+    position: fixed;
+    top: 3%;    
+    left:40%;
+}
+.Cuerpo{
+    justify-content: center;
+}
+.img{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+.Titulo{  
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left:200px; 
+    margin-right:300px;
+}
+.Texto1{
+    padding: 25px;
+    margin-left:200px; 
+    margin-right:300px;
+}
+.Texto2{
+    padding: 25px;
+    margin-left:200px; 
+    margin-right:300px;
+}
